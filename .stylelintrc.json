@@ -1,0 +1,26 @@
+{
+    "extends": "stylelint-config-standard-scss",
+    "rules": {
+        "string-quotes": "single",
+        "indentation": 4,
+        "selector-list-comma-newline-after": "always-multi-line",
+        "block-no-empty": null,
+        "at-rule-no-unknown": null,
+        "no-descending-specificity": null,
+        "property-no-unknown": null,
+        "selector-class-pattern": [
+            "[a-z][A-Za-z]*",
+            {
+                "resolveNestedSelectors": true
+            }
+        ],
+        "property-no-vendor-prefix": null,
+        "value-no-vendor-prefix": null,
+        "selector-pseudo-class-no-unknown": [
+            true,
+            {
+                "ignorePseudoClasses": ["global", "export"]
+            }
+        ]
+    }
+}
