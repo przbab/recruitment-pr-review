@@ -1,0 +1,19 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.formWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+}
